@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-size="medium" data-font="serif">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ready for Regionals? | WEHS Library Lyceum</title>
+<meta name="description" content="A study aid for West Essex FBLA members competing in Regional Competitive Events.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="WEHS Library Lyceum">
+<meta property="og:title" content="Ready for Regionals?">
+<meta property="og:description" content="A study aid for West Essex FBLA members competing in Regional Competitive Events.">
+<meta property="og:url" content="https://mistertlibrary.github.io/regionalsprep/">
+<meta property="og:image" content="https://mistertlibrary.github.io/librarylyceum/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="/librarylyceum/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/librarylyceum/favicon.png">
+<script>
+(function(){try{var d=document.documentElement,t=localStorage.getItem("lyceum-theme"),s=localStorage.getItem("lyceum-size"),f=localStorage.getItem("lyceum-font");if(t==="dark"||t==="contrast")d.dataset.theme=t;if(s==="small"||s==="large")d.dataset.size=s;if(f==="sans"||f==="dyslexic")d.dataset.font=f}catch(e){}})();
+</script>
+<style>
+@font-face{font-family:"EB Garamond";font-style:normal;font-weight:400 800;font-display:swap;src:url("/librarylyceum/fonts/eb-garamond-400-800.woff2") format("woff2")}
+@font-face{font-family:"EB Garamond";font-style:italic;font-weight:400 800;font-display:swap;src:url("/librarylyceum/fonts/eb-garamond-400-800-italic.woff2") format("woff2")}
+@font-face{font-family:"Libre Franklin";font-style:normal;font-weight:100 900;font-display:swap;src:url("/librarylyceum/fonts/libre-franklin-100-900.woff2") format("woff2")}
+@font-face{font-family:"OpenDyslexic";font-weight:400;font-display:swap;src:url("/librarylyceum/fonts/opendyslexic-400.woff2") format("woff2")}
+@font-face{font-family:"OpenDyslexic";font-weight:700;font-display:swap;src:url("/librarylyceum/fonts/opendyslexic-700.woff2") format("woff2")}
+:root{--paper:#f3f1ec;--card:#fbfaf7;--ink:#17202e;--muted:#4f5868;--accent:#b8862b;--accent-ink:#8a5f12;--line:#d6d1c6;--night:#14223a;--night-ink:#f3f1ec;--bar:#2f4a74;--focus:#1f5e7a;--serif:"EB Garamond",Garamond,"Iowan Old Style",Georgia,serif;--sans:"Libre Franklin","Franklin Gothic Medium",system-ui,sans-serif;--base:19px}
+[data-theme="dark"]{--paper:#10151e;--card:#182030;--ink:#e8e6e1;--muted:#aeb5c2;--accent:#d4a548;--accent-ink:#e8c37a;--line:#34405a;--night:#0a0f17;--night-ink:#e8e6e1;--bar:#7f9cc9;--focus:#8cc8e0}
+[data-theme="contrast"]{--paper:#000;--card:#000;--ink:#fff;--muted:#fff;--accent:#ffd54a;--accent-ink:#ffd54a;--line:#fff;--night:#000;--night-ink:#fff;--bar:#ffd54a;--focus:#ffd54a}
+[data-size="small"]{--base:17px}[data-size="large"]{--base:22px}
+[data-font="sans"]{--serif:var(--sans)}
+[data-font="dyslexic"]{--serif:"OpenDyslexic",sans-serif;--sans:"OpenDyslexic",sans-serif}
+*{box-sizing:border-box}
+html{font-size:var(--base);scroll-behavior:smooth;scroll-padding-top:4rem}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);line-height:1.65;font-size:1.05rem}
+a{color:var(--accent-ink);text-underline-offset:3px;overflow-wrap:anywhere}
+[data-theme="contrast"] a{color:var(--accent)}
+a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+h1,h2,h3{text-align:center;line-height:1.15;font-weight:600}
+.skip{position:absolute;left:-999px;top:0;background:var(--card);color:var(--ink);padding:.5rem 1rem;z-index:20}
+.skip:focus{left:1rem;top:1rem}
+.topbar{background:var(--night);color:var(--night-ink);font-family:var(--sans);font-size:.72rem;letter-spacing:.06em;padding:.55rem 1.2rem;text-align:center}
+.topbar a{color:var(--night-ink);text-decoration:none;border-bottom:1px solid rgba(255,255,255,.35)}
+.hero{background:var(--night);color:var(--night-ink);text-align:center;padding:4rem 1.5rem 3rem;overflow:hidden}
+.kicker{font-family:var(--sans);font-size:.8rem;letter-spacing:.14em;font-weight:600;color:#cdbf9f;margin:0 0 .8rem}
+[data-theme="contrast"] .kicker{color:#fff}
+.hero h1{font-size:clamp(2.6rem,7vw,4.6rem);margin:0;font-weight:500;letter-spacing:.01em}
+.hero .tag{font-style:italic;font-size:1.2rem;max-width:32rem;margin:1rem auto 0;color:#d9d4c8}
+[data-theme="contrast"] .hero .tag{color:#fff}
+.hero .rule{width:64px;height:3px;background:var(--accent);margin:1.6rem auto 0}
+.sheet{display:block;width:min(560px,100%);height:auto;margin:2.4rem auto 0;color:var(--night-ink)}
+.sheet circle{fill:none;stroke:currentColor;stroke-width:1.3;opacity:.4}
+.sheet circle.on{fill:var(--accent);stroke:var(--accent);opacity:1}
+.sheet text{fill:currentColor;opacity:.55;font-family:var(--sans);font-size:9px}
+@media (prefers-reduced-motion:no-preference){.sheet circle.on{animation:fill .5s ease both;animation-delay:calc(var(--i)*60ms)}@keyframes fill{from{opacity:0}to{opacity:1}}}
+.map{position:sticky;top:0;z-index:8;background:var(--card);border-bottom:1px solid var(--line);font-family:var(--sans);font-size:.72rem}
+.map ol{list-style:none;margin:0 auto;padding:.7rem 1rem;display:flex;gap:.3rem 1.4rem;justify-content:center;flex-wrap:wrap;max-width:70rem}
+.map a{color:var(--ink);text-decoration:none;font-weight:500}
+.map a:hover{color:var(--accent-ink)}
+.chapter{padding:4rem 1.5rem;border-bottom:1px solid var(--line)}
+.wrap{max-width:38rem;margin:0 auto}
+.chap-num{font-family:var(--sans);font-size:.72rem;letter-spacing:.14em;font-weight:700;color:var(--accent-ink);text-align:center;margin:0 0 .5rem}
+[data-theme="contrast"] .chap-num{color:var(--accent)}
+.chapter h2{font-size:clamp(1.9rem,4vw,2.6rem);margin:0 0 2rem;font-weight:500}
+.chapter h3{font-size:1.35rem;margin:2.2rem 0 .6rem;font-weight:600}
+.lede{font-size:1.15rem}
+ul.pts{padding-left:1.2rem;margin:0 0 1rem}
+ul.pts li{margin:0 0 .7rem}
+ul.pts li::marker{color:var(--accent)}
+.explorer{max-width:44rem;margin:2rem auto 2.4rem;background:var(--card);border:1px solid var(--line);border-top:6px solid var(--accent);padding:1.6rem clamp(1rem,4vw,2rem) 2rem}
+.explorer label.pick{display:block;font-family:var(--sans);font-weight:700;font-size:.85rem;text-align:center;margin:0 0 .5rem}
+.explorer select{display:block;width:100%;max-width:28rem;margin:0 auto;font:inherit;font-family:var(--sans);font-size:1rem;padding:.6rem .7rem;min-height:44px;border:1px solid var(--ink);background:var(--paper);color:var(--ink);border-radius:2px}
+.ev{margin-top:1.6rem}
+.ev[hidden]{display:none}
+.ev h3{margin:0 0 .4rem;font-size:1.6rem}
+.badges{text-align:center;margin:0 0 1rem;font-family:var(--sans);font-size:.75rem}
+.badge{display:inline-block;padding:.2rem .6rem;border:1px solid var(--ink);margin:.2rem}
+.badge.grade{background:var(--ink);color:var(--card)}
+.ev h4{font-family:var(--sans);font-size:.8rem;letter-spacing:.08em;font-weight:700;text-align:center;margin:1.4rem 0 .6rem;color:var(--muted)}
+blockquote.fbla{margin:0;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--accent)}
+blockquote.fbla p{margin:0 0 .4rem}
+blockquote.fbla cite{display:block;font-family:var(--sans);font-size:.75rem;font-style:normal;color:var(--muted)}
+.goal{font-style:italic;text-align:center;margin:0 0 .9rem}
+.note{font-family:var(--sans);font-size:.85rem;text-align:center;margin:0 0 .9rem;color:var(--muted)}
+ol.areas{list-style:none;margin:0;padding:0}
+ol.areas li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:.2rem .7rem;align-items:start;padding:.55rem 0;border-bottom:1px solid var(--line)}
+ol.areas input{width:1.25rem;height:1.25rem;margin:.2rem 0 0;accent-color:var(--bar)}
+ol.areas label{cursor:pointer}
+.aname{display:flex;justify-content:space-between;gap:.8rem;flex-wrap:wrap}
+.count{font-family:var(--sans);font-size:.8rem;white-space:nowrap;color:var(--muted)}
+.bar{grid-column:2;height:8px;background:var(--line);border-radius:4px;overflow:hidden}
+.bar span{display:block;height:100%;background:var(--bar)}
+ol.areas li.done .aname span:first-child{text-decoration:line-through;text-decoration-color:var(--accent)}
+.prog{font-family:var(--sans);font-size:.8rem;text-align:center;margin:.9rem 0 0}
+.guide-link{text-align:center;margin:1.4rem 0 0;font-family:var(--sans);font-size:.9rem;font-weight:600}
+.dbs dt{font-weight:600;margin-top:.8rem}
+.dbs dd{margin:0 0 0 1rem}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,16rem),1fr));gap:0 2rem;max-width:52rem;margin:0 auto}
+.sources p{padding-left:2rem;text-indent:-2rem;font-size:.92rem;margin:0 0 .8rem}
+footer{background:var(--night);color:var(--night-ink);text-align:center;font-family:var(--sans);font-size:.78rem;padding:2.5rem 1rem 5rem}
+footer a{color:var(--night-ink)}
+footer .big{font-family:var(--serif);font-size:1.4rem;font-style:italic;margin:0 0 .6rem}
+.a11y-toggle{position:fixed;right:1rem;bottom:1rem;z-index:15;width:3rem;height:3rem;border-radius:50%;border:2px solid var(--night-ink);background:var(--night);color:var(--night-ink);font-family:var(--serif);font-size:1.15rem;font-weight:600;cursor:pointer}
+.a11y-panel{position:fixed;right:1rem;bottom:4.6rem;z-index:15;width:16.5rem;background:var(--card);color:var(--ink);border:2px solid var(--ink);padding:1rem;font-family:"Libre Franklin",system-ui,sans-serif;font-size:14px}
+.a11y-panel[hidden]{display:none}
+.a11y-group{border:0;margin:0 0 .8rem;padding:0}
+.a11y-group legend{font-weight:700;margin-bottom:.35rem}
+.a11y-group .opts{display:flex;flex-wrap:wrap;gap:.3rem}
+.a11y-group button{font:inherit;padding:.3rem .65rem;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer}
+.a11y-group button[aria-pressed="true"]{background:var(--ink);color:var(--card)}
+@media print{.topbar,.map,.a11y-toggle,.a11y-panel,.sheet,.explorer select,.explorer label.pick{display:none}.hero,footer{background:#fff;color:#000}.chapter{padding:1.5rem 0}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main-content">Skip to content</a>
+<div class="topbar"><a href="/librarylyceum/guides.html">WEHS Library Lyceum</a> research guides presents...</div>
+<header class="hero">
+<p class="kicker">West Essex FBLA</p>
+<h1>Ready for Regionals?</h1>
+<p class="tag">A study aid for West Essex FBLA members competing in Regional Competitive Events.</p>
+<div class="rule"></div>
+<svg class="sheet" id="sheet" viewBox="0 0 560 120" aria-hidden="true" focusable="false"></svg>
+</header>
+<nav class="map" aria-label="Guide sections">
+<ol>
+<li><a href="#start">Start here</a></li>
+<li><a href="#test">Know your test</a></li>
+<li><a href="#plan">Study plan</a></li>
+<li><a href="#advice">Weighing advice</a></li>
+<li><a href="#deeper">Go deeper</a></li>
+<li><a href="#day">Test day</a></li>
+<li><a href="#sources">Sources</a></li>
+</ol>
+</nav>
+<main id="main-content">
+
+<section id="start" class="chapter">
+<div class="wrap">
+<p class="chap-num">1</p>
+<h2>Start Here</h2>
+<ul class="pts">
+<li>Regionals run at West Essex from November 30 to December 2.</li>
+<li>Almost every Regionals event is a 50-minute, 100-question multiple-choice test.</li>
+<li>The top eight scores for most events in each of NJ FBLA's four regions advance to the State Leadership Conference.</li>
+<li>Your score depends on how well you understand your event's knowledge areas. There are no shortcuts!</li>
+</ul>
+</div>
+</section>
+
+<section id="test" class="chapter">
+<div class="wrap">
+<p class="chap-num">2</p>
+<h2>Know Your Test</h2>
+<p class="lede">Most FBLA tests are built from a study guide. The guide names the knowledge areas the test covers and (usually) cites how many of the 100 questions come from each. Learn about your event below!</p>
+</div>
+
+<div class="explorer" id="explorer">
+<label class="pick" for="evsel">Choose your event</label>
+<select id="evsel"><option value="">Loading events...</option></select>
+<div class="ev" id="ev" hidden>
+<h3 id="evname"></h3>
+<p class="badges" id="evbadges"></p>
+<h4>What FBLA says about this event</h4>
+<blockquote class="fbla"><p id="evdesc"></p><cite>FBLA, 2026-2027 Competitive Events Guidelines</cite></blockquote>
+<h4>What the test covers</h4>
+<p class="goal">The goal: becoming conversationally fluent in each area, no notes required!</p>
+<p class="note" id="evnote" hidden></p>
+<ol class="areas" id="evareas"></ol>
+<p class="prog" id="evprog" aria-live="polite"></p>
+<p class="guide-link"><a id="evlink" href="#">Read the full guidelines (PDF)</a></p>
+</div>
+</div>
+
+<div class="wrap">
+<ul class="pts">
+<li>Budget your study time by the counts. In Economics, Global Trade accounts for 25 questions; Government's Impact on Business accounts for 5.</li>
+<li>Each guideline also lists detailed objectives under every knowledge area. Transform objectives into study questions and quiz yourself on them.</li>
+</ul>
+</div>
+</section>
+
+<section id="plan" class="chapter">
+<div class="wrap">
+<p class="chap-num">3</p>
+<h2>Study Plan</h2>
+<ul class="pts">
+<li>Take a practice test first. Log in to FBLA Connect and select More, then Courses. Your score will reveal areas of strength and weakness.</li>
+<li>Time yourself! One hundred questions in 50 minutes gives you 30 seconds per question.</li>
+<li>Close your notes and focus on recall. Write down everything you know about one knowledge area, then check what you missed. (This is called retrieval practice; tail-wagging is optional.)</li>
+<li>Sort your errors by knowledge area; address what's weakest first.</li>
+<li>Study a little every day between now and your test. Short, spaced sessions beat one long cram.</li>
+<li>Mix knowledge areas within a session instead of finishing one before you start the next.</li>
+<li>Ask a teacher who teaches your subject or turn to Mr. Thompson for help locating resources.</li>
+<li>Sleep well the night before!</li>
+</ul>
+</div>
+</section>
+
+<section id="advice" class="chapter">
+<div class="wrap">
+<p class="chap-num">4</p>
+<h2>Weighing Advice</h2>
+<p class="lede">You'll find oodles of FBLA advice online. Some of it is sound, some is out of date, and some is downright unethical. Exercise the same sort of skepticism you would toward any other source.</p>
+<h3>Is it current?</h3>
+<p>Older guides from students and chapters describe a 60-minute test and say the last 10 questions break ties. Both statements are mistaken. Trust this year's guidelines over ancient advice.</p>
+<h3>Does it match your study guide?</h3>
+<p>Practice sets on Quizlet and similar sites vary in age and accuracy. Use them only after you've checked their topics against your event's knowledge areas. Same goes for prompting an AI tool for help.</p>
+<h3>Is it honest?</h3>
+<p>FBLA's Honor Code forbids competitors from saving competitive event or test materials. A study set rebuilt from someone's memory of a real test breaks the spirit of that rule. Don't tacitly endorse somebody else's loose morals.</p>
+<h3>Is it free?</h3>
+<p>Please don't buy anything! FBLA's sample tests come with your membership; our library databases are already paid for.</p>
+</div>
+</section>
+
+<section id="deeper" class="chapter">
+<div class="wrap">
+<p class="chap-num">5</p>
+<h2>Go Deeper</h2>
+<p class="lede">Your practice test will reveal what you missed; our databases can explain why.</p>
+<p><a href="https://mistertlibrary.github.io/librarylyceum/databases.html?filter=Business">Browse the business collection</a></p>
+<dl class="dbs">
+<dt>Business Source Premier</dt><dd>Business journals, company and industry reports, case studies, and SWOT analyses.</dd>
+<dt>Small Business Source</dt><dd>Small-business reference books, case studies, videos, and guidance on business plans, marketing, and hiring.</dd>
+<dt>Small Business Reference eBook Collection</dt><dd>Companion reference books for deeper reading.</dd>
+<dt>Regional Business News</dt><dd>Regional business newspapers, trade publications, and newswires.</dd>
+<dt>Legal Information Reference Source</dt><dd>Legal reference books written for everyday readers. Useful for Business Law.</dd>
+<dt>Explora High Schools</dt><dd>Topic overviews built for high school researchers. A good first stop when a practice question uses a term you don't know.</dd>
+<dt>Ferguson's Career Guidance Center</dt><dd>Profiles of careers and industries.</dd>
+</dl>
+<p>Off campus? <a href="https://docs.google.com/document/d/1oGCj_JLUUAQV9jOgOQpNmrZlYmntAysr68tuXCWGCy4/view">Login information</a> is linked on the <a href="https://mistertlibrary.github.io/librarylyceum/databases.html">Find a Database page</a>. You'll need your West Essex Google account.</p>
+</div>
+</section>
+
+<section id="day" class="chapter">
+<p class="chap-num">6</p>
+<h2>Test Day</h2>
+<div class="cols">
+<div>
+<h3>Before</h3>
+<ul class="pts">
+<li>No notes or study materials. Phones, smart watches, and headphones stay off and out of sight.</li>
+<li>Bring a pencil. Scratch paper is allowed and is collected at the end.</li>
+<li>Team events: each member tests alone and the scores are averaged. No collaboration.</li>
+</ul>
+</div>
+<div>
+<h3>During</h3>
+<ul class="pts">
+<li>Answer every question. Wrong answers cost you nothing.</li>
+<li>Check the clock at question 50. You want about 25 minutes left.</li>
+<li>If a question stalls you, make your best guess and move on.</li>
+<li>Read every option before you choose.</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="sources" class="chapter">
+<div class="wrap sources">
+<p class="chap-num">7</p>
+<h2>Sources</h2>
+<p>FBLA, High School Competitive Events (2026-27 guidelines and resources): <a href="https://www.fbla.org/high-school/competitive-events/">fbla.org/high-school/competitive-events/</a></p>
+<p>FBLA, Honor Code: <a href="https://www.fbla.org/honor-code/">fbla.org/honor-code/</a></p>
+<p>FBLA Support Center, "Competition Prep: Sample Objective Tests, Role Plays, Production Tests, and Case Competitions": <a href="https://support.fbla.org/hc/en-us/articles/4416902542996">support.fbla.org/hc/en-us/articles/4416902542996</a></p>
+<p>NJ FBLA, 2026-27 High School Handbook (pp. 30-41)</p>
+<p>WEHS Library Lyceum, Find a Database (Business): <a href="https://mistertlibrary.github.io/librarylyceum/databases.html?filter=Business">mistertlibrary.github.io/librarylyceum/databases.html?filter=Business</a></p>
+<p>Cornell University Learning Strategies Center, "Effective Study Strategies": <a href="https://lsc.cornell.edu/how-to-study/studying-for-and-taking-exams/effective-study-strategies">lsc.cornell.edu/how-to-study/studying-for-and-taking-exams/effective-study-strategies</a></p>
+<p>University of Rochester Learning Center, "Spaced Retrieval Practice" (PDF): <a href="https://rochester.edu/college/learningcenter/assets/pdf-doc/spaced-retrieval-practice-final.pdf">rochester.edu/college/learningcenter/assets/pdf-doc/spaced-retrieval-practice-final.pdf</a></p>
+</div>
+</section>
+</main>
+<footer>
+<p class="big">West Essex High School Library Media Center</p>
+<p><a href="/librarylyceum/">WEHS Library Lyceum</a></p>
+</footer>
+<button class="a11y-toggle" type="button" aria-expanded="false" aria-controls="a11y-panel" aria-label="Reading preferences">Aa</button>
+<div class="a11y-panel" id="a11y-panel" role="group" aria-label="Reading preferences" hidden>
+<fieldset class="a11y-group"><legend>Text size</legend><div class="opts" data-dim="size"><button type="button" data-v="small">Small</button><button type="button" data-v="medium">Medium</button><button type="button" data-v="large">Large</button></div></fieldset>
+<fieldset class="a11y-group"><legend>Theme</legend><div class="opts" data-dim="theme"><button type="button" data-v="light">Light</button><button type="button" data-v="dark">Dark</button><button type="button" data-v="contrast">High contrast</button></div></fieldset>
+<fieldset class="a11y-group"><legend>Typeface</legend><div class="opts" data-dim="font"><button type="button" data-v="serif">Serif</button><button type="button" data-v="sans">Sans</button><button type="button" data-v="dyslexic">OpenDyslexic</button></div></fieldset>
+</div>
+<script>
+(function(){
+var d=document.documentElement,K={size:"lyceum-size",theme:"lyceum-theme",font:"lyceum-font"};
+function sync(){document.querySelectorAll(".a11y-group .opts").forEach(function(g){var dim=g.getAttribute("data-dim");g.querySelectorAll("button").forEach(function(b){b.setAttribute("aria-pressed",String(d.dataset[dim]===b.getAttribute("data-v")))})})}
+document.querySelectorAll(".a11y-group button").forEach(function(b){b.addEventListener("click",function(){var dim=b.parentNode.getAttribute("data-dim"),v=b.getAttribute("data-v");d.dataset[dim]=v;try{localStorage.setItem(K[dim],v)}catch(e){}sync()})});
+var t=document.querySelector(".a11y-toggle"),p=document.getElementById("a11y-panel");
+function close(){p.hidden=true;t.setAttribute("aria-expanded","false")}
+t.addEventListener("click",function(){p.hidden=!p.hidden;t.setAttribute("aria-expanded",String(!p.hidden));if(!p.hidden)p.querySelector("button").focus()});
+document.addEventListener("keydown",function(e){if(e.key==="Escape"&&!p.hidden){close();t.focus()}});
+sync();
+})();
+(function(){
+var s=document.getElementById("sheet"),ns="http://www.w3.org/2000/svg",on={3:1,6:1,8:1,12:1,17:1,21:1,26:1,30:1,34:1,39:1},h="";
+for(var c=0;c<10;c++){var x=20+c*54;h+='<text x="'+(x-2)+'" y="18">'+(c+1)+'</text>';for(var r=0;r<4;r++){var i=c*4+r,k=on[i]?' class="on" style="--i:'+Object.keys(on).indexOf(String(i))+'"':"";h+='<circle cx="'+(x+18)+'" cy="'+(14+r*28)+'" r="9"'+k+'/>'}}
+s.innerHTML=h;
+})();
+(function(){
+var sel=document.getElementById("evsel"),box=document.getElementById("ev"),EV=[];
+var PFX="regionalsprep:";
+function get(k){try{return localStorage.getItem(PFX+k)}catch(e){return null}}
+function put(k,v){try{if(v)localStorage.setItem(PFX+k,"1");else localStorage.removeItem(PFX+k)}catch(e){}}
+function el(tag,cls,txt){var n=document.createElement(tag);if(cls)n.className=cls;if(txt!=null)n.textContent=txt;return n}
+function progress(e,list){var n=list.querySelectorAll("input").length,c=list.querySelectorAll("input:checked").length;document.getElementById("evprog").textContent=c+" of "+n+" areas checked off";}
+function show(i){
+  var e=EV[i];if(!e){box.hidden=true;return}
+  box.hidden=false;
+  document.getElementById("evname").textContent=e.name;
+  var b=document.getElementById("evbadges");b.textContent="";
+  b.appendChild(el("span","badge",e.regionals));
+  if(e.grades910)b.appendChild(el("span","badge grade","9th and 10th grade only"));
+  document.getElementById("evdesc").textContent="“"+e.description+"”";
+  var note=document.getElementById("evnote"),counted=e.areas.every(function(a){return typeof a.items==="number"});
+  if(e.name==="Computer Applications"){note.hidden=false;note.textContent="This is a production test. You'll build documents, spreadsheets, and slides."}
+  else if(!counted){note.hidden=false;note.textContent="FBLA doesn't publish a question count for this test. Study every area listed!"}
+  else note.hidden=true;
+  var areas=e.areas.map(function(a,j){return{a:a,j:j}});
+  if(counted)areas.sort(function(x,y){return y.a.items-x.a.items||x.j-y.j});
+  var max=counted?Math.max.apply(null,e.areas.map(function(a){return a.items})):0;
+  var list=document.getElementById("evareas");list.textContent="";
+  areas.forEach(function(o,k){
+    var a=o.a,id="ka-"+k,key=e.name+"|"+a.name;
+    var li=el("li"),cb=el("input");cb.type="checkbox";cb.id=id;cb.checked=!!get(key);
+    var lab=el("label");lab.htmlFor=id;var row=el("span","aname");row.appendChild(el("span",null,a.name));
+    if(counted)row.appendChild(el("span","count",a.items+" questions"));
+    lab.appendChild(row);li.appendChild(cb);li.appendChild(lab);
+    if(counted){var bar=el("span","bar");bar.setAttribute("aria-hidden","true");var f=el("span");f.style.width=(a.items/max*100)+"%";bar.appendChild(f);li.appendChild(bar)}
+    if(cb.checked)li.classList.add("done");
+    cb.addEventListener("change",function(){put(key,cb.checked);li.classList.toggle("done",cb.checked);progress(e,list)});
+    list.appendChild(li);
+  });
+  progress(e,list);
+  var l=document.getElementById("evlink");l.href=e.url;
+}
+fetch("data/events.json").then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(data){
+  EV=data;sel.textContent="";
+  var o=el("option",null,"Select an event");o.value="";sel.appendChild(o);
+  EV.forEach(function(e,i){var op=el("option",null,e.name);op.value=i;sel.appendChild(op)});
+  var last=get("last");if(last!==null&&EV[last]){sel.value=last;show(+last)}
+  sel.addEventListener("change",function(){if(sel.value===""){box.hidden=true;return}try{localStorage.setItem(PFX+"last",sel.value)}catch(e){}show(+sel.value)});
+}).catch(function(){sel.textContent="";var o=el("option",null,"Events could not load. See the guidelines link in Sources.");sel.appendChild(o);sel.disabled=true});
+})();
+</script>
+
+<script>(function(){if(window.__lyx)return;window.__lyx=2;
+var css=".lyx{position:fixed;inset:0;z-index:1000;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:4vmin;background:rgba(8,10,12,.94);cursor:zoom-out;overflow:auto}.lyx[hidden]{display:none}.lyx>img{max-width:100%;max-height:calc(100vh - 8vmin - 4.5rem);object-fit:contain;background:#fff}.lyx .lyx-c{width:min(100%,80rem);max-height:calc(100vh - 8vmin - 4.5rem);overflow:auto;font-size:clamp(1rem,1.9vw,1.9rem)}.lyx .lyx-c>*{margin:0!important;max-width:none!important;width:100%!important;cursor:zoom-out}.lyx .lyx-c svg,.lyx .lyx-c video,.lyx .lyx-c img{display:block;width:100%!important;max-width:none!important;height:auto!important;max-height:calc(100vh - 12vmin - 4.5rem)!important;margin:0 auto}.lyx .lyx-c .lyx-pad{background:#fff;color:#111;padding:2rem}.lyx .lyx-cap{color:#f1f1f1;font:15px/1.45 system-ui,sans-serif;max-width:60ch;text-align:center;margin:0}.lyx .lyx-x{position:absolute;top:12px;right:14px;font:700 13px system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:transparent;border:2px solid #fff;padding:6px 12px;cursor:pointer;z-index:1}.lyx .lyx-x:focus-visible{outline:3px solid #ffd54a;outline-offset:2px}.lyz{cursor:zoom-in}.lyz:focus-visible{outline:3px solid #ffd54a;outline-offset:3px}@media print{.lyx{display:none!important}}";
+var st=document.createElement("style");st.textContent=css;document.head.appendChild(st);
+var box=document.createElement("div");box.className="lyx";box.hidden=true;box.setAttribute("role","dialog");box.setAttribute("aria-modal","true");box.setAttribute("aria-label","Full-size view");
+box.innerHTML='<button type="button" class="lyx-x">Close</button><img alt="" hidden><div class="lyx-c" hidden></div><p class="lyx-cap"></p>';
+var big=box.querySelector("img"),cl=box.querySelector(".lyx-c"),cap=box.querySelector(".lyx-cap"),last=null;
+function ready(f){document.readyState==="loading"?document.addEventListener("DOMContentLoaded",f):f()}
+ready(function(){document.body.appendChild(box);mark(document)});
+var IMG=/\.(jpe?g|png|gif|webp|avif|svg)([?#].*)?$/i,SKIP=".lyx,header,[role=banner],nav,.hero,.no-lightbox,.shot-btn,#lightbox,.lightbox,button,label";
+function okImg(im){if(im.closest(SKIP))return false;if(im.getAttribute("alt")===""&&!im.hasAttribute("data-full"))return false;if(im.id==="lightbox-img"||im.id==="img-preview")return false;var a=im.closest("a[href]");if(a&&!IMG.test(a.getAttribute("href")))return false;return true}
+function okDraw(el){if(el.closest(SKIP)||el.closest("a[href]")||el.closest(".lyz")&&el.closest(".lyz")!==el)return false;if(el.hasAttribute("data-lyx"))return true;if(el.matches("figure"))return !el.querySelector("img,input,textarea,select,button");if(el.matches("svg")){if(el.getAttribute("aria-hidden")==="true"||el.closest("figure,[data-lyx],h1,h2,h3,h4,h5,h6,.title"))return false;if(/crest|logo/i.test((el.getAttribute("aria-label")||"")+((el.querySelector("title")||{}).textContent||"")))return false;var v=(el.getAttribute("viewBox")||"").split(/[\s,]+/);return +v[2]>=150}return false}
+function tag(el,label){el.classList.add("lyz");if(!el.closest("a,button")){el.tabIndex=0;el.setAttribute("role","button");el.setAttribute("aria-label",label)}}
+function mark(root){root=root.querySelectorAll?root:document;
+root.querySelectorAll("img").forEach(function(im){if(!im.classList.contains("lyz")&&okImg(im))tag(im,(im.alt?im.alt+". ":"")+"Open full size")});
+root.querySelectorAll("[data-lyx],figure,svg[role=img]").forEach(function(el){if(el.classList.contains("lyz")||!okDraw(el))return;if(el.matches("figure")&&!el.querySelector("svg,[role=img]"))return;var l=el.getAttribute("aria-label")||(el.querySelector("[aria-label]")||{getAttribute:function(){return""}}).getAttribute("aria-label")||(el.querySelector("title")||{}).textContent||"";if(!el.matches("[role=img],svg")||el.hasAttribute("data-lyx"))tag(el,(l?l+". ":"")+"Open full size");else{el.classList.add("lyz");el.tabIndex=0;el.setAttribute("data-lyx-svg","")}})}
+if(window.MutationObserver)new MutationObserver(function(ms){ms.forEach(function(m){m.addedNodes.forEach(function(n){if(n.nodeType===1&&!box.contains(n))mark(n.tagName==="IMG"?n.parentNode:n)})})}).observe(document.documentElement,{childList:true,subtree:true});
+function show(){box.hidden=false;document.documentElement.style.overflow="hidden";box.querySelector(".lyx-x").focus()}
+function open(el){last=el;cap.textContent="";cl.innerHTML="";cl.hidden=true;big.hidden=true;
+if(el.tagName==="IMG"){var a=el.closest("a[href]");big.src=el.getAttribute("data-full")||(a&&IMG.test(a.getAttribute("href"))?a.href:(el.currentSrc||el.src));big.alt=el.alt||"";big.hidden=false;var f=el.closest("figure"),c=f&&f.querySelector("figcaption");cap.textContent=c?c.textContent.trim():""}
+else{var k=el.cloneNode(true);k.classList.remove("lyz");k.removeAttribute("tabindex");k.removeAttribute("role");k.removeAttribute("aria-label");k.querySelectorAll("[id]").forEach(function(x){x.removeAttribute("id")});k.removeAttribute("id");var bg=getComputedStyle(el).backgroundColor;if(!bg||bg==="rgba(0, 0, 0, 0)"||bg==="transparent"){var w=document.createElement("div");w.className="lyx-pad";w.style.background=getComputedStyle(document.body).backgroundColor||"#fff";w.style.color=getComputedStyle(el).color;w.appendChild(k);k=w}cl.appendChild(k);cl.hidden=false}
+cap.hidden=!cap.textContent;show()}
+function close(){box.hidden=true;big.removeAttribute("src");cl.innerHTML="";document.documentElement.style.overflow="";if(last&&last.focus)last.focus()}
+document.addEventListener("click",function(e){if(!box.hidden){if(box.contains(e.target)&&!(e.target.closest&&e.target.closest("a[href]")))close();return}var el=e.target.closest&&e.target.closest(".lyz");if(!el)return;var ctl=e.target.closest("button,input,textarea,select,summary"),lk=e.target.closest("a[href]");if(ctl&&ctl!==el&&el.contains(ctl))return;if(lk&&!IMG.test(lk.getAttribute("href"))&&lk!==el)return;e.preventDefault();e.stopPropagation();open(el)},true);
+document.addEventListener("keydown",function(e){if(!box.hidden){if(e.key==="Escape"){e.preventDefault();close()}else if(e.key==="Tab"){e.preventDefault();box.querySelector(".lyx-x").focus()}return}var el=e.target.classList&&e.target.classList.contains("lyz")?e.target:null;if(el&&(e.key==="Enter"||e.key===" ")){e.preventDefault();open(el)}});
+})();</script>
+</body>
+</html>

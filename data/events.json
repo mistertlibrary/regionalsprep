@@ -1,0 +1,1606 @@
+[
+ {
+  "name": "Accounting",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Accounting.pdf",
+  "description": "Accounting challenges competitors to demonstrate their understanding of fundamental accounting principles through an objective test. This event introduces members to key concepts such as financial statements, journal entries, and the accounting cycle, encouraging exploration of careers in accounting and finance.",
+  "areas": [
+   {
+    "name": "Foundations of Accounting",
+    "items": 10
+   },
+   {
+    "name": "Standards and Compliance",
+    "items": 5
+   },
+   {
+    "name": "The Accounting Cycle",
+    "items": 40
+   },
+   {
+    "name": "Accounts Payable and Receivable",
+    "items": 10
+   },
+   {
+    "name": "Tax Accounting",
+    "items": 10
+   },
+   {
+    "name": "Financial Reports",
+    "items": 5
+   },
+   {
+    "name": "Technology and Accounting",
+    "items": 10
+   },
+   {
+    "name": "Career Opportunities",
+    "items": 10
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Advanced Accounting",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Advanced-Accounting.pdf",
+  "description": "Advanced Accounting allows members to demonstrate their knowledge of higher-level accounting concepts through an objective test. This event covers topics such as corporate accounting, managerial accounting, and financial analysis, preparing members for advanced study and careers in the accounting field.",
+  "areas": [
+   {
+    "name": "Foundations of Accounting",
+    "items": 10
+   },
+   {
+    "name": "Standards and Compliance",
+    "items": 10
+   },
+   {
+    "name": "The Accounting Cycle",
+    "items": 25
+   },
+   {
+    "name": "Inventory",
+    "items": 10
+   },
+   {
+    "name": "Payroll",
+    "items": 20
+   },
+   {
+    "name": "Financial Statements",
+    "items": 15
+   },
+   {
+    "name": "Managerial Accounting",
+    "items": 10
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Advertising",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Advertising.pdf",
+  "description": "Advertising challenges members to demonstrate their understanding of advertising principles and strategies through an objective test. This event explores topics such as media planning, branding, consumer behavior, and promotional techniques used to effectively reach target audiences.",
+  "areas": [
+   {
+    "name": "Branding",
+    "items": 10
+   },
+   {
+    "name": "Promotion",
+    "items": 20
+   },
+   {
+    "name": "Advertisement",
+    "items": 15
+   },
+   {
+    "name": "Develop Marketing Content",
+    "items": 20
+   },
+   {
+    "name": "Design Principles",
+    "items": 20
+   },
+   {
+    "name": "Sales-Promotion Activities",
+    "items": 15
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Agribusiness",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Agribusiness.pdf",
+  "description": "Agribusiness allows members to demonstrate their understanding of business principles as they apply to the agriculture industry through an objective test. This event covers topics such as agricultural marketing, economics, finance, and supply chain management, encouraging members to explore careers in agribusiness.",
+  "areas": [
+   {
+    "name": "Safety Procedures and Regulations",
+    "items": 20
+   },
+   {
+    "name": "Nature of Agribusiness",
+    "items": 10
+   },
+   {
+    "name": "Business Law",
+    "items": 5
+   },
+   {
+    "name": "Ethics",
+    "items": 5
+   },
+   {
+    "name": "Agribusiness Economics",
+    "items": 20
+   },
+   {
+    "name": "Operations and Management",
+    "items": 20
+   },
+   {
+    "name": "Finance and Marketing",
+    "items": 15
+   },
+   {
+    "name": "Natural Resources and Systems",
+    "items": 5
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Banking & Financial Systems",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Role%20Play%20Events/Banking-and-Financial-Systems.pdf",
+  "description": "Banking & Financial Systems challenges members to demonstrate their understanding of how financial institutions function and their impact on both business and personal finance. This event includes an objective test and a role play scenario, allowing members to apply knowledge in areas such as banking services, regulatory compliance, and financial decision-making.",
+  "areas": [
+   {
+    "name": "Fundamental Principles of Money",
+    "items": 5
+   },
+   {
+    "name": "Financial Institutions & Markets",
+    "items": 20
+   },
+   {
+    "name": "Financial Analysis & Decision-Making",
+    "items": 10
+   },
+   {
+    "name": "Regulatory Compliance in Finance",
+    "items": 20
+   },
+   {
+    "name": "Banking Services & Daily Operations",
+    "items": 15
+   },
+   {
+    "name": "Loans & Credit",
+    "items": 10
+   },
+   {
+    "name": "Customer Relations in Banking",
+    "items": 10
+   },
+   {
+    "name": "Professional Development in Banking",
+    "items": 10
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Business Communication",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Business-Communication.pdf",
+  "description": "Business Communication challenges members to demonstrate their knowledge of effective communication practices in the workplace through an objective test. This event covers topics such as written and verbal communication, digital correspondence, and professional etiquette essential to business success.",
+  "areas": [
+   {
+    "name": "Communication Basics",
+    "items": 10
+   },
+   {
+    "name": "Written Communication",
+    "items": 25
+   },
+   {
+    "name": "Verbal Communication",
+    "items": 20
+   },
+   {
+    "name": "Workplace Communication",
+    "items": 20
+   },
+   {
+    "name": "Interpersonal Relationships",
+    "items": 25
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Business Ethics",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Presentation%20Events/Business-Ethics.pdf",
+  "description": "Business Ethics recognizes members who can analyze and present solutions to ethical dilemmas commonly faced in the business world. This event includes an individual objective test, a written report, and a presentation, allowing members to explore ethical decision-making, integrity, and corporate responsibility.",
+  "areas": [
+   {
+    "name": "Communication Skills",
+    "items": 10
+   },
+   {
+    "name": "Self-Awareness",
+    "items": 15
+   },
+   {
+    "name": "Doing the Right Thing",
+    "items": 30
+   },
+   {
+    "name": "Teamwork Skills",
+    "items": 15
+   },
+   {
+    "name": "Leadership Skills",
+    "items": 20
+   },
+   {
+    "name": "Career Readiness",
+    "items": 10
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Business Law",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Business-Law.pdf",
+  "description": "Business Law challenges members to demonstrate their understanding of the legal system and its impact on business operations through an objective test. This event covers topics such as contracts, ethics, employment law, and consumer protection, encouraging members to explore the legal foundations of business.",
+  "areas": [
+   {
+    "name": "Legal Foundations",
+    "items": 15
+   },
+   {
+    "name": "Commercial Law",
+    "items": 20
+   },
+   {
+    "name": "Employment Law",
+    "items": 15
+   },
+   {
+    "name": "Business Ethics",
+    "items": 15
+   },
+   {
+    "name": "Financial & Tax Law",
+    "items": 15
+   },
+   {
+    "name": "International Trade & Commerce Law",
+    "items": 20
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Business Management",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Role%20Play%20Events/Business-Management.pdf",
+  "description": "Business Management challenges members to demonstrate their understanding of core management principles through an objective test and a role play scenario. Members apply their knowledge to real-world business situations involving planning, organizing, leading, and decision-making within an organizational setting.",
+  "areas": [
+   {
+    "name": "Business Environment",
+    "items": 15
+   },
+   {
+    "name": "Management Types",
+    "items": 25
+   },
+   {
+    "name": "Business Finance",
+    "items": 15
+   },
+   {
+    "name": "Operations",
+    "items": 15
+   },
+   {
+    "name": "Strategic Management",
+    "items": 30
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Computer Applications",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Production%20Events/Computer-Applications.pdf",
+  "description": "Computer Applications challenges members to demonstrate their proficiency in using a variety of software applications to manage and communicate business information. Through a production test, members apply skills in word processing, spreadsheets, and presentation tools to complete real-world business tasks efficiently and accurately.",
+  "areas": [
+   {
+    "name": "Spreadsheet Functions and Formulas"
+   },
+   {
+    "name": "Creating and Formatting with Word Processing"
+   },
+   {
+    "name": "Developing Slides & Presentations"
+   },
+   {
+    "name": "Integrating Spreadsheets and Word Processing"
+   },
+   {
+    "name": "Integrating Presentations and Spreadsheets"
+   }
+  ],
+  "grades910": false,
+  "regionals": "2-hour production test"
+ },
+ {
+  "name": "Computer Problem Solving",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Computer-Problem-Solving.pdf",
+  "description": "Computer Problem Solving challenges members to demonstrate their understanding of computer systems, including operating systems, networking, and hardware, through an objective test. This event encourages members to apply troubleshooting and analytical skills to solve technical problems commonly encountered in the IT field.",
+  "areas": [
+   {
+    "name": "Operating Systems",
+    "items": 20
+   },
+   {
+    "name": "Networks",
+    "items": 20
+   },
+   {
+    "name": "Computer Hardware and Connectivity",
+    "items": 20
+   },
+   {
+    "name": "Security",
+    "items": 15
+   },
+   {
+    "name": "Laptops, Tablets, and Mobile Devices",
+    "items": 15
+   },
+   {
+    "name": "Printers and Peripherals",
+    "items": 10
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Customer Service",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Role%20Play%20Events/Customer-Service.pdf",
+  "description": "Customer Service allows members to demonstrate their ability to deliver exceptional service in a professional setting. Competitors engage with internal and external customers by answering inquiries, resolving issues, and promoting positive customer experiences. This event includes an objective test and a role play scenario to assess both knowledge and real-time interaction skills.",
+  "areas": [
+   {
+    "name": "Fostering Positive Relationships",
+    "items": 30
+   },
+   {
+    "name": "Emotional Intelligence",
+    "items": 15
+   },
+   {
+    "name": "Conflict Resolution",
+    "items": 10
+   },
+   {
+    "name": "Delivering on a Brand Promise",
+    "items": 15
+   },
+   {
+    "name": "Customer Relationship Management",
+    "items": 10
+   },
+   {
+    "name": "Sales Processes and Techniques",
+    "items": 20
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Cybersecurity",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Cybersecurity.pdf",
+  "description": "Cybersecurity challenges members to demonstrate their knowledge of protecting systems and data from digital threats such as viruses, malware, phishing, and spyware. Through an objective test, members explore foundational cybersecurity principles, tools, and best practices used to defend against cyberattacks.",
+  "areas": [
+   {
+    "name": "Security Fundamentals",
+    "items": 15
+   },
+   {
+    "name": "Cyber Threats and Vulnerabilities",
+    "items": 20
+   },
+   {
+    "name": "Security and Design",
+    "items": 20
+   },
+   {
+    "name": "Network and Data Security",
+    "items": 15
+   },
+   {
+    "name": "Security Operations and Management",
+    "items": 10
+   },
+   {
+    "name": "Security Protocols and Threat Mitigation",
+    "items": 20
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Data Science & AI",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Data-Science-and-AI.pdf",
+  "description": "Data Science & AI challenges members to demonstrate their understanding of data analysis, machine learning, and the principles of artificial intelligence through an objective test. This event introduces members to the role of data and AI in solving real-world problems and driving innovation across industries.",
+  "areas": [
+   {
+    "name": "Probability and Statistics Foundations",
+    "items": 15
+   },
+   {
+    "name": "Data Analysis and Statistics for AI",
+    "items": 15
+   },
+   {
+    "name": "Tools for Data and AI",
+    "items": 10
+   },
+   {
+    "name": "AI Basics",
+    "items": 10
+   },
+   {
+    "name": "Machine Learning",
+    "items": 10
+   },
+   {
+    "name": "Perception, Representation, and Reasoning",
+    "items": 10
+   },
+   {
+    "name": "Privacy and Ethics",
+    "items": 10
+   },
+   {
+    "name": "Data Literacy and Foundations",
+    "items": 20
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Economics",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Economics.pdf",
+  "description": "Economics challenges members to demonstrate their understanding of key economic concepts and principles through an objective test. This event covers topics such as supply and demand, market structures, fiscal and monetary policy, and the global economy, encouraging members to explore how economic forces shape the world.",
+  "areas": [
+   {
+    "name": "Fundamental Economic Concepts",
+    "items": 15
+   },
+   {
+    "name": "Nature of Business",
+    "items": 15
+   },
+   {
+    "name": "Economic Systems",
+    "items": 15
+   },
+   {
+    "name": "Government’s Impact on Business",
+    "items": 5
+   },
+   {
+    "name": "Cost/Profit Relationships",
+    "items": 10
+   },
+   {
+    "name": "Economic Indicators",
+    "items": 15
+   },
+   {
+    "name": "Global Trade",
+    "items": 25
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Entrepreneurship",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Role%20Play%20Events/Entrepreneurship.pdf",
+  "description": "Entrepreneurship challenges members to demonstrate their knowledge of what it takes to start and manage a successful business. Through an objective test and a role play scenario, members apply entrepreneurial concepts such as business planning, innovation, risk management, and strategic decision-making.",
+  "areas": [
+   {
+    "name": "Fundamentals of Entrepreneurship",
+    "items": 10
+   },
+   {
+    "name": "Discovery Strategies",
+    "items": 15
+   },
+   {
+    "name": "Business Venture Concepts",
+    "items": 20
+   },
+   {
+    "name": "Business Venture Resources",
+    "items": 20
+   },
+   {
+    "name": "New Business Venture Activities",
+    "items": 25
+   },
+   {
+    "name": "Business Law and Regulations",
+    "items": 10
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Future Business Leader",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Presentation%20Events/Future-Business-Leader.pdf",
+  "description": "Future Business Leader is FBLA’s premier event recognizing members who exemplify leadership, business knowledge, and active involvement in the organization. Competitors are evaluated through pre-judged materials, an objective test, and a presentation (interview), showcasing their readiness for success in business and leadership roles.",
+  "areas": [
+   {
+    "name": "FBLA Organization"
+   },
+   {
+    "name": "FBLA Bylaws & Handbook"
+   },
+   {
+    "name": "FBLA National Competitive Event Guidelines"
+   },
+   {
+    "name": "FBLA National Publications"
+   },
+   {
+    "name": "FBLA Mission, Pledge and Goals"
+   },
+   {
+    "name": "General Business and Technology Knowledge (including, but not limited to, accounting, banking, law, entrepreneurship, marketing, international business, management, organizational leadership, information technology, cybersecurity)"
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Healthcare Administration",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Healthcare-Administration.pdf",
+  "description": "Healthcare Administration challenges members to demonstrate their knowledge of medical terminology, office procedures, and administrative functions within a healthcare setting. Through an objective test, members explore the skills and knowledge essential to supporting efficient and effective healthcare operations.",
+  "areas": [
+   {
+    "name": "Healthcare Organizations and Structure",
+    "items": 15
+   },
+   {
+    "name": "Healthcare Finances and Budgeting",
+    "items": 10
+   },
+   {
+    "name": "Staffing and Training",
+    "items": 10
+   },
+   {
+    "name": "Strategic Management",
+    "items": 15
+   },
+   {
+    "name": "Healthcare Technology",
+    "items": 10
+   },
+   {
+    "name": "Healthcare Billing and Insurance",
+    "items": 10
+   },
+   {
+    "name": "Healthcare Policy and Regulation",
+    "items": 15
+   },
+   {
+    "name": "Communication and Leadership",
+    "items": 15
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Hospitality & Event Management",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Role%20Play%20Events/Hospitality-and-Event-Management.pdf",
+  "description": "Hospitality & Event Management challenges members to demonstrate their understanding of the hospitality industry and event planning through an objective test and a role play scenario. Members apply their knowledge in areas such as customer service, operations, logistics, and marketing to solve real-world business situations.",
+  "areas": [
+   {
+    "name": "Customer Relations",
+    "items": 20
+   },
+   {
+    "name": "Economics and Finances",
+    "items": 10
+   },
+   {
+    "name": "Information Management",
+    "items": 10
+   },
+   {
+    "name": "Operations",
+    "items": 5
+   },
+   {
+    "name": "Professional Development",
+    "items": 10
+   },
+   {
+    "name": "Product/Service Management",
+    "items": 10
+   },
+   {
+    "name": "Promotion and Selling",
+    "items": 10
+   },
+   {
+    "name": "Event Management",
+    "items": 25
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Human Resource Management",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Human-Resource-Management.pdf",
+  "description": "Human Resource Management challenges members to demonstrate their understanding of key HR functions, including staffing, training, employee relations, and performance management. Through an objective test, members explore how effective human resource practices support organizational success and employee development.",
+  "areas": [
+   {
+    "name": "Nature of Human Resources Management",
+    "items": 15
+   },
+   {
+    "name": "Staffing and Talent Acquisition",
+    "items": 20
+   },
+   {
+    "name": "Training and Development",
+    "items": 10
+   },
+   {
+    "name": "Performance Management",
+    "items": 10
+   },
+   {
+    "name": "Employee Relations and Issue Resolution",
+    "items": 20
+   },
+   {
+    "name": "Compensation and Total Rewards",
+    "items": 15
+   },
+   {
+    "name": "Health and Safety",
+    "items": 5
+   },
+   {
+    "name": "Professional Development in Human Resources",
+    "items": 5
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Insurance & Risk Management",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Insurance-and-Risk-Management.pdf",
+  "description": "Insurance & Risk Management challenges members to demonstrate their understanding of risk management principles and various types of insurance. Through an objective test, members explore how individuals and businesses identify, assess, and mitigate risks through insurance products and strategic planning.",
+  "areas": [
+   {
+    "name": "Risk Management Fundamentals",
+    "items": 15
+   },
+   {
+    "name": "Insurance Industry & Legal Principles",
+    "items": 15
+   },
+   {
+    "name": "Personal Insurance Products",
+    "items": 20
+   },
+   {
+    "name": "Commercial & Specialized Insurance Products",
+    "items": 15
+   },
+   {
+    "name": "Insurance Operations & Underwriting",
+    "items": 10
+   },
+   {
+    "name": "Claims & Fraud Management",
+    "items": 15
+   },
+   {
+    "name": "Professional Development in Insurance",
+    "items": 10
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "International Business",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Role%20Play%20Events/International-Business.pdf",
+  "description": "International Business gives members the opportunity to explore the dynamic global economy and understand how businesses operate across borders. Through an objective test and a role play scenario, members apply their knowledge of international trade, cultural awareness, global marketing, and economic systems.",
+  "areas": [
+   {
+    "name": "Fundamental Economic Concepts",
+    "items": 20
+   },
+   {
+    "name": "The Nature of Business",
+    "items": 20
+   },
+   {
+    "name": "Economic Systems",
+    "items": 20
+   },
+   {
+    "name": "Impact of Government",
+    "items": 5
+   },
+   {
+    "name": "Business Law",
+    "items": 5
+   },
+   {
+    "name": "Global Trade",
+    "items": 30
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Introduction to Business Communication",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Introduction-to-Business-Communication.pdf",
+  "description": "Introduction to Business Communication challenges members to demonstrate their understanding of fundamental communication skills in a business setting through an objective test. This event introduces concepts such as written and verbal communication, digital messaging, and professional etiquette used to share information within and outside an organization.",
+  "areas": [
+   {
+    "name": "Communication Basics",
+    "items": 10
+   },
+   {
+    "name": "Written Communication",
+    "items": 20
+   },
+   {
+    "name": "Reading to Understand",
+    "items": 10
+   },
+   {
+    "name": "Active Listening",
+    "items": 10
+   },
+   {
+    "name": "Verbal Communication",
+    "items": 20
+   },
+   {
+    "name": "Workplace Communication",
+    "items": 10
+   },
+   {
+    "name": "Interpersonal Relationships",
+    "items": 20
+   }
+  ],
+  "grades910": true,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Introduction to Business Concepts",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Introduction-to-Business-Concepts.pdf",
+  "description": "Introduction to Business Concepts allows members to demonstrate their knowledge of foundational business principles through an objective test. This event introduces members to key business functions such as management, marketing, finance, and operations, encouraging a broad understanding of how businesses operate.",
+  "areas": [
+   {
+    "name": "Fundamental Economic Concepts",
+    "items": 10
+   },
+   {
+    "name": "Nature of Business",
+    "items": 20
+   },
+   {
+    "name": "Economic Systems",
+    "items": 15
+   },
+   {
+    "name": "Cost/Profit Relationships",
+    "items": 5
+   },
+   {
+    "name": "Owning a Business",
+    "items": 5
+   },
+   {
+    "name": "Types of Business Activities",
+    "items": 25
+   },
+   {
+    "name": "Career Planning",
+    "items": 10
+   },
+   {
+    "name": "Job-Search Skills",
+    "items": 10
+   }
+  ],
+  "grades910": true,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Introduction to Business Procedures",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Introduction-to-Business-Procedures.pdf",
+  "description": "Introduction to Business Procedures challenges members to demonstrate their understanding of basic office procedures and workplace practices through an objective test. This event introduces members to topics such as administrative tasks, business protocols, and decision-making in a professional environment.",
+  "areas": [
+   {
+    "name": "Professional Communication & Correspondence",
+    "items": 30
+   },
+   {
+    "name": "Information Management & Technology",
+    "items": 25
+   },
+   {
+    "name": "Workplace Protocols & Decision Making",
+    "items": 30
+   },
+   {
+    "name": "Professional Development & Career Readiness",
+    "items": 15
+   }
+  ],
+  "grades910": true,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Introduction to FBLA",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Introduction-to-FBLA.pdf",
+  "description": "Introduction to FBLA allows members to demonstrate their knowledge of the organization’s history, structure, programs, and leadership through an objective test. This event encourages members to deepen their understanding of FBLA and become more engaged in its mission and opportunities.",
+  "areas": [
+   {
+    "name": "FBLA History"
+   },
+   {
+    "name": "FBLA Corporate & Division Bylaws"
+   },
+   {
+    "name": "FBLA Programs"
+   },
+   {
+    "name": "FBLA Pledge, Mission, Goals, Creed"
+   },
+   {
+    "name": "FBLA High School Competitive Events"
+   },
+   {
+    "name": "FBLA Structure"
+   },
+   {
+    "name": "FBLA Dress Code"
+   },
+   {
+    "name": "FBLA Publications"
+   },
+   {
+    "name": "FBLA Deadlines"
+   },
+   {
+    "name": "FBLA Website & Communications"
+   },
+   {
+    "name": "FBLA Partners"
+   }
+  ],
+  "grades910": true,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Introduction to Information Technology",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Introduction-to-Information-Technology.pdf",
+  "description": "Introduction to Information Technology challenges members to demonstrate their understanding of fundamental IT concepts through an objective test. This event introduces members to key areas such as computer systems, software, networks, and data management, highlighting how technology is used to organize and deliver information in business settings.",
+  "areas": [
+   {
+    "name": "Computer Hardware",
+    "items": 20
+   },
+   {
+    "name": "Software Fundamentals",
+    "items": 10
+   },
+   {
+    "name": "Operating Systems",
+    "items": 15
+   },
+   {
+    "name": "Software Applications",
+    "items": 10
+   },
+   {
+    "name": "Modern Technologies",
+    "items": 10
+   },
+   {
+    "name": "Networking Concepts",
+    "items": 20
+   },
+   {
+    "name": "Information Management Concepts",
+    "items": 15
+   }
+  ],
+  "grades910": true,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Introduction to Marketing Concepts",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Introduction-to-Marketing-Concepts.pdf",
+  "description": "Introduction to Marketing Concepts allows members to demonstrate their understanding of foundational marketing principles through an objective test. This event introduces topics such as product promotion, pricing strategies, consumer behavior, and the methods used to effectively sell goods and services.",
+  "areas": [
+   {
+    "name": "Marketing Fundamentals",
+    "items": 20
+   },
+   {
+    "name": "Product/Service Management",
+    "items": 20
+   },
+   {
+    "name": "Channel Management",
+    "items": 10
+   },
+   {
+    "name": "Marketing-Information Management",
+    "items": 10
+   },
+   {
+    "name": "Pricing",
+    "items": 5
+   },
+   {
+    "name": "Promotion",
+    "items": 15
+   },
+   {
+    "name": "Selling",
+    "items": 20
+   }
+  ],
+  "grades910": true,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Introduction to Parliamentary Procedure",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Introduction-to-Parliamentary-Procedure.pdf",
+  "description": "Introduction to Parliamentary Procedure challenges members to demonstrate their understanding of the basic principles and rules used to conduct orderly and effective meetings. Through an objective test, members explore topics such as motions, voting procedures, and meeting structure based on parliamentary law.",
+  "areas": [
+   {
+    "name": "Foundations of Parliamentary Procedure",
+    "items": 10
+   },
+   {
+    "name": "Parliamentary Terminology",
+    "items": 20
+   },
+   {
+    "name": "Meeting Structure and Order of Business",
+    "items": 15
+   },
+   {
+    "name": "Handling a Main Motion",
+    "items": 15
+   },
+   {
+    "name": "Classification of Motions",
+    "items": 20
+   },
+   {
+    "name": "Voting and Elections",
+    "items": 20
+   }
+  ],
+  "grades910": true,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Introduction to Retail & Merchandising",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Introduction-to-Retail-and-Merchandising.pdf",
+  "description": "Introduction to Retail & Merchandising challenges members to demonstrate their understanding of basic principles in retail operations and merchandising strategies through an objective test. Topics include product placement, inventory control, customer experience, and sales techniques within the retail environment.",
+  "areas": [
+   {
+    "name": "Foundational Retail Knowledge",
+    "items": 15
+   },
+   {
+    "name": "Customer Service and Sales",
+    "items": 25
+   },
+   {
+    "name": "Stock-Handling Procedures",
+    "items": 20
+   },
+   {
+    "name": "Inventory Storage and Control",
+    "items": 20
+   },
+   {
+    "name": "Career Opportunities",
+    "items": 5
+   },
+   {
+    "name": "Visual Merchandising",
+    "items": 5
+   },
+   {
+    "name": "Display Techniques",
+    "items": 10
+   }
+  ],
+  "grades910": true,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Introduction to Supply Chain Management",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Introduction-to-Supply-Chain-Management.pdf",
+  "description": "Introduction to Supply Chain Management challenges members to demonstrate their understanding of the processes involved in the flow of goods, information, and finances within a supply chain. Through an objective test, members explore key concepts such as logistics, inventory control, procurement, and distribution strategies.",
+  "areas": [
+   {
+    "name": "Operations",
+    "items": 10
+   },
+   {
+    "name": "Project Management",
+    "items": 10
+   },
+   {
+    "name": "Purchasing",
+    "items": 10
+   },
+   {
+    "name": "Supply Chain Management’s Role in Business",
+    "items": 15
+   },
+   {
+    "name": "Distribution",
+    "items": 10
+   },
+   {
+    "name": "Supply Chain Management Activities",
+    "items": 15
+   },
+   {
+    "name": "Inventory Processes",
+    "items": 15
+   },
+   {
+    "name": "Transportation Strategies",
+    "items": 15
+   }
+  ],
+  "grades910": true,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Journalism",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Journalism.pdf",
+  "description": "Journalism challenges members to demonstrate their knowledge of journalistic principles, media ethics, and the business of news through an objective test. This event encourages exploration of topics such as news writing, reporting, editing, and the evolving role of journalism in a digital economy.",
+  "areas": [
+   {
+    "name": "Basic Communication Skills",
+    "items": 15
+   },
+   {
+    "name": "Writing Skills",
+    "items": 15
+   },
+   {
+    "name": "Editing",
+    "items": 10
+   },
+   {
+    "name": "Fundamental Principles of Journalism",
+    "items": 20
+   },
+   {
+    "name": "Research and Investigation",
+    "items": 20
+   },
+   {
+    "name": "Compose News Stories",
+    "items": 20
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Management Information Systems",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Role%20Play%20Events/Management-Information-Systems.pdf",
+  "description": "Management Information Systems challenges members to apply their knowledge of how businesses use technology to manage information and support decision-making. Through an objective test and a role play scenario, members analyze a small business’s environment and recommend effective information system solutions.",
+  "areas": [
+   {
+    "name": "Systems Design and Analysis",
+    "items": 25
+   },
+   {
+    "name": "Object Oriented Programming Concepts",
+    "items": 15
+   },
+   {
+    "name": "Data and Information Management",
+    "items": 15
+   },
+   {
+    "name": "IT Project Management",
+    "items": 15
+   },
+   {
+    "name": "IT Infrastructure",
+    "items": 15
+   },
+   {
+    "name": "Emerging Business Technologies",
+    "items": 15
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Marketing",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Role%20Play%20Events/Marketing.pdf",
+  "description": "Marketing challenges members to demonstrate their understanding of marketing concepts and strategies through an objective test and a role play scenario. Members apply their knowledge in areas such as market research, branding, promotion, and customer engagement to solve real-world business challenges.",
+  "areas": [
+   {
+    "name": "Marketing Fundamentals",
+    "items": 10
+   },
+   {
+    "name": "Market Planning",
+    "items": 10
+   },
+   {
+    "name": "Marketing-Information Management",
+    "items": 15
+   },
+   {
+    "name": "Product/Service Management",
+    "items": 25
+   },
+   {
+    "name": "Channel Management",
+    "items": 10
+   },
+   {
+    "name": "Pricing",
+    "items": 10
+   },
+   {
+    "name": "Promotion",
+    "items": 10
+   },
+   {
+    "name": "Selling",
+    "items": 10
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Network Design",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Role%20Play%20Events/Network-Design.pdf",
+  "description": "Network Design challenges members to demonstrate their understanding of networking concepts and infrastructure through an objective test and a role play scenario. Members apply their knowledge to design, implement, and troubleshoot network solutions that meet the needs of a business or organization.",
+  "areas": [
+   {
+    "name": "Network Installation and Configuration",
+    "items": 25
+   },
+   {
+    "name": "Network Security and Recovery",
+    "items": 20
+   },
+   {
+    "name": "Network Administration",
+    "items": 20
+   },
+   {
+    "name": "Network Planning",
+    "items": 15
+   },
+   {
+    "name": "Network Protocols, Services, and Access",
+    "items": 20
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Networking Infrastructures",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Networking-Infrastructures.pdf",
+  "description": "Networking Infrastructures challenges members to demonstrate their knowledge of network administration and infrastructure through an objective test. This event covers topics such as network design, protocols, hardware, and security, highlighting the importance of reliable connectivity in today’s digital workplace.",
+  "areas": [
+   {
+    "name": "Networking Basics",
+    "items": 20
+   },
+   {
+    "name": "Network Topologies and Architecture",
+    "items": 20
+   },
+   {
+    "name": "Network Security",
+    "items": 25
+   },
+   {
+    "name": "Network Protocols and Standards",
+    "items": 20
+   },
+   {
+    "name": "Network Hardware and Connectivity",
+    "items": 15
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Organizational Leadership",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Organizational-Leadership.pdf",
+  "description": "Organizational Leadership challenges members to demonstrate their understanding of leadership principles within a business context through an objective test. This event explores topics such as leadership styles, team management, motivation, and ethical decision-making, preparing members to lead effectively in organizational settings.",
+  "areas": [
+   {
+    "name": "Role of Management in Business",
+    "items": 10
+   },
+   {
+    "name": "Leadership",
+    "items": 20
+   },
+   {
+    "name": "Manage Business Relationships",
+    "items": 20
+   },
+   {
+    "name": "Human Resources Management",
+    "items": 20
+   },
+   {
+    "name": "Critical-Thinking Skills",
+    "items": 15
+   },
+   {
+    "name": "Manage Stressful Situations",
+    "items": 15
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Parliamentary Procedure",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Role%20Play%20Events/Parliamentary-Procedure.pdf",
+  "description": "Parliamentary Procedure allows members to demonstrate their understanding of the principles and practices used to conduct orderly and efficient meetings. This event includes an objective test and a role play scenario, where members apply parliamentary law through simulated meeting activities.",
+  "areas": [
+   {
+    "name": "Foundations of Parliamentary Procedure",
+    "items": 15
+   },
+   {
+    "name": "Parliamentary Terminology",
+    "items": 15
+   },
+   {
+    "name": "Meeting Structure and Order of Business",
+    "items": 15
+   },
+   {
+    "name": "Handling Motions and Rules of Debate",
+    "items": 15
+   },
+   {
+    "name": "Classification of Motions",
+    "items": 15
+   },
+   {
+    "name": "Voting, Elections, and Nominations",
+    "items": 15
+   },
+   {
+    "name": "Boards and Committees",
+    "items": 10
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Personal Finance",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Personal-Finance.pdf",
+  "description": "Personal Finance challenges members to demonstrate their understanding of essential financial skills through an objective test. This event covers topics such as budgeting, saving, credit, investing, and responsible financial decision-making, helping members build a foundation for lifelong financial wellness.",
+  "areas": [
+   {
+    "name": "Principles of Money",
+    "items": 20
+   },
+   {
+    "name": "Financial Needs and Goals",
+    "items": 15
+   },
+   {
+    "name": "Financial-Services Providers",
+    "items": 5
+   },
+   {
+    "name": "Investment Strategies",
+    "items": 5
+   },
+   {
+    "name": "Financial Literacy",
+    "items": 50
+   },
+   {
+    "name": "Risk Management",
+    "items": 5
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Project Management",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Project-Management.pdf",
+  "description": "Project Management challenges members to demonstrate their understanding of key project management concepts through an objective test. This event covers areas such as planning, scheduling, budgeting, risk management, and team coordination, reflecting the skills needed to successfully lead and execute projects in a business setting.",
+  "areas": [
+   {
+    "name": "Foundational Knowledge",
+    "items": 10
+   },
+   {
+    "name": "Initiating and Planning a Project",
+    "items": 40
+   },
+   {
+    "name": "Executing, Monitoring, and Controlling a Project",
+    "items": 30
+   },
+   {
+    "name": "Closing a Project",
+    "items": 20
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Public Administration & Management",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Public-Administration-and-Management.pdf",
+  "description": "Public Administration & Management challenges members to demonstrate their understanding of how government functions and its role in society through an objective test. This event explores topics such as public policy, organizational structure, budgeting, and the intersection of political and economic systems.",
+  "areas": [
+   {
+    "name": "Public Finance",
+    "items": 15
+   },
+   {
+    "name": "Public Policy and Governance",
+    "items": 30
+   },
+   {
+    "name": "Communication",
+    "items": 10
+   },
+   {
+    "name": "Public Sector Fundamentals",
+    "items": 15
+   },
+   {
+    "name": "Public Management",
+    "items": 20
+   },
+   {
+    "name": "Ethics",
+    "items": 10
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Real Estate",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Real-Estate.pdf",
+  "description": "Real Estate challenges members to demonstrate their understanding of the real estate industry through an objective test. Members are assessed on key concepts such as property law, real estate finance, market analysis, sales strategies, and ethical practices. This event encourages exploration of the skills and knowledge needed to navigate the real estate sector successfully.",
+  "areas": [
+   {
+    "name": "Real Estate Fundamentals",
+    "items": 30
+   },
+   {
+    "name": "Laws and Regulations",
+    "items": 25
+   },
+   {
+    "name": "Real Estate Transactions and Finance",
+    "items": 20
+   },
+   {
+    "name": "Ethics",
+    "items": 5
+   },
+   {
+    "name": "Agency",
+    "items": 20
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Retail Management",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Retail-Management.pdf",
+  "description": "Retail Management challenges high school members to demonstrate their understanding of core retail operations and strategies through an objective test. Members are assessed on key knowledge areas such as inventory control, sales techniques, merchandising, and product mix.",
+  "areas": [
+   {
+    "name": "Foundational Retail Knowledge",
+    "items": 10
+   },
+   {
+    "name": "Selling",
+    "items": 20
+   },
+   {
+    "name": "Pricing",
+    "items": 10
+   },
+   {
+    "name": "Market Planning",
+    "items": 10
+   },
+   {
+    "name": "Warehousing and Transportation",
+    "items": 5
+   },
+   {
+    "name": "Inventory Control",
+    "items": 15
+   },
+   {
+    "name": "Visual Merchandising",
+    "items": 10
+   },
+   {
+    "name": "Display Techniques",
+    "items": 10
+   },
+   {
+    "name": "Product Mix",
+    "items": 10
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Securities & Investments",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Objective%20Tests/Securities-and-Investments.pdf",
+  "description": "Securities & Investments challenges members to demonstrate their understanding of investment principles and financial markets through an objective test. This event covers topics such as stocks, bonds, mutual funds, portfolio management, and risk analysis, encouraging members to build foundational knowledge in personal and professional investing.",
+  "areas": [
+   {
+    "name": "Principles of Money",
+    "items": 10
+   },
+   {
+    "name": "Financial Markets",
+    "items": 10
+   },
+   {
+    "name": "Investment Analysis",
+    "items": 25
+   },
+   {
+    "name": "Selecting Investments",
+    "items": 5
+   },
+   {
+    "name": "Securities & Investments Industry",
+    "items": 25
+   },
+   {
+    "name": "Securities Products",
+    "items": 25
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Sports & Entertainment Management",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Role%20Play%20Events/Sports-and-Entertainment-Management.pdf",
+  "description": "Sports & Entertainment Management challenges members to demonstrate their understanding of the business aspects of the sports and entertainment industries. Through an objective test and a role play scenario, members apply knowledge in areas such as marketing, event planning, sponsorship, and financial management within this dynamic field.",
+  "areas": [
+   {
+    "name": "Fundamentals of Sports/Entertainment Management & Marketing",
+    "items": 15
+   },
+   {
+    "name": "Product/Service Management",
+    "items": 15
+   },
+   {
+    "name": "Pricing",
+    "items": 5
+   },
+   {
+    "name": "Advertising Basics",
+    "items": 10
+   },
+   {
+    "name": "Publicity and Public Relations",
+    "items": 5
+   },
+   {
+    "name": "Sales Promotion",
+    "items": 20
+   },
+   {
+    "name": "The Sports/Entertainment Management & Marketing Environment",
+    "items": 5
+   },
+   {
+    "name": "Event Planning",
+    "items": 20
+   },
+   {
+    "name": "Sports/Event Distribution",
+    "items": 5
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ },
+ {
+  "name": "Technology Support & Services",
+  "url": "https://connect.fbla.org/headquarters/files/High%20School%20Competitive%20Events%20Resources/Individual%20Guidelines/Role%20Play%20Events/Technology-Support-and-Services.pdf",
+  "description": "Technology Support & Services challenges members to demonstrate their knowledge of help desk operations and IT support through an objective test and a role play scenario. Members apply problem-solving, technical, and customer service skills to address real-world technology support issues in a business setting.",
+  "areas": [
+   {
+    "name": "IT Fundamentals",
+    "items": 25
+   },
+   {
+    "name": "Service Desk Operations",
+    "items": 20
+   },
+   {
+    "name": "Hardware and Software Troubleshooting",
+    "items": 30
+   },
+   {
+    "name": "IT Management and Administration",
+    "items": 25
+   }
+  ],
+  "grades910": false,
+  "regionals": "50-minute, 100-question objective test"
+ }
+]
