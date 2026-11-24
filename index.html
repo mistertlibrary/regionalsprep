@@ -96,8 +96,22 @@ ol.areas label{cursor:pointer}
 ol.areas li.done .aname span:first-child{text-decoration:line-through;text-decoration-color:var(--accent)}
 .prog{font-family:var(--sans);font-size:.8rem;text-align:center;margin:.9rem 0 0}
 .guide-link{text-align:center;margin:1.4rem 0 0;font-family:var(--sans);font-size:.9rem;font-weight:600}
-.dbs dt{font-weight:600;margin-top:.8rem}
-.dbs dd{margin:0 0 0 1rem}
+.db-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));max-width:60rem;margin:2rem auto;background:var(--card);border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.db-card{background:var(--card);border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:1.8rem 2rem;display:flex;flex-direction:column;gap:.6rem;transition:background-color .2s;position:relative}
+.db-card::after{content:"";position:absolute;bottom:0;left:1.8rem;right:1.8rem;height:3px;background:var(--accent);transform:scaleX(0);transition:transform .3s ease;transform-origin:center}
+.db-card:hover{background:var(--paper)}
+.db-card:hover::after,.db-card:focus-within::after{transform:scaleX(1)}
+.db-card-header{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem}
+.card-arrow{flex-shrink:0;opacity:.25;transition:opacity .2s,transform .2s;margin-top:.15rem;color:var(--ink)}
+.db-card:hover .card-arrow{opacity:1;transform:translate(3px,-3px)}
+[data-theme="contrast"] .card-arrow{opacity:1}
+.db-card-name{font-family:var(--serif);font-size:1.15rem;font-weight:600;color:var(--ink);text-decoration:none;letter-spacing:.02em;line-height:1.25;transition:color .2s}
+.db-card-name:hover{color:var(--accent-ink)}
+.db-card-desc{font-size:.88rem;color:var(--muted);line-height:1.7;flex-grow:1}
+.db-card-desc p{margin:0}
+.db-card-desc p+p{margin-top:.75em}
+.visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}
+@media (prefers-reduced-motion:reduce){.db-card,.db-card::after,.card-arrow{transition:none}}
 .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,16rem),1fr));gap:0 2rem;max-width:52rem;margin:0 auto}
 details.cited{max-width:46rem;margin:0 auto}
 details.cited summary{cursor:pointer;font-family:var(--sans);font-weight:600;font-size:.9rem;text-align:center;list-style:none;padding:.8rem;border:1px solid var(--line);background:var(--card)}
@@ -116,7 +130,7 @@ footer .big{font-family:var(--serif);font-size:1.4rem;font-style:italic;margin:0
 .a11y-group .opts{display:flex;flex-wrap:wrap;gap:.3rem}
 .a11y-group button{font:inherit;padding:.3rem .65rem;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer}
 .a11y-group button[aria-pressed="true"]{background:var(--ink);color:var(--card)}
-@media print{details.cited>*{display:block}.topbar,.map,.a11y-toggle,.a11y-panel,.watch,.explorer select,.explorer label.pick{display:none}.hero,footer{background:#fff;color:#000}.chapter{padding:1.5rem 0}}
+@media print{.card-arrow{display:none}details.cited>*{display:block}.topbar,.map,.a11y-toggle,.a11y-panel,.watch,.explorer select,.explorer label.pick{display:none}.hero,footer{background:#fff;color:#000}.chapter{padding:1.5rem 0}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
@@ -134,13 +148,13 @@ footer .big{font-family:var(--serif);font-size:1.4rem;font-style:italic;margin:0
 </header>
 <nav class="map" aria-label="Guide sections">
 <ol>
-<li><a href="#start">Start here</a></li>
-<li><a href="#test">Know your test</a></li>
-<li><a href="#plan">Study plan</a></li>
-<li><a href="#advice">Weighing advice</a></li>
-<li><a href="#deeper">Go deeper</a></li>
-<li><a href="#day">Test day</a></li>
-<li><a href="#sources">Works cited</a></li>
+<li><a href="#start">Start Here</a></li>
+<li><a href="#test">Know Your Test</a></li>
+<li><a href="#plan">Study Plan</a></li>
+<li><a href="#advice">Weighing Advice</a></li>
+<li><a href="#deeper">Go Deeper</a></li>
+<li><a href="#day">Test Day</a></li>
+<li><a href="#sources">Works Cited</a></li>
 </ol>
 </nav>
 <main id="main-content">
@@ -228,17 +242,18 @@ footer .big{font-family:var(--serif);font-size:1.4rem;font-style:italic;margin:0
 <p class="chap-num">5</p>
 <h2>Go Deeper</h2>
 <p class="lede">Your practice test will reveal what you missed; our databases can explain why.</p>
-<p><a href="https://mistertlibrary.github.io/librarylyceum/databases.html?filter=Business">Browse the business collection</a></p>
-<dl class="dbs">
-<dt><a href="https://research.ebsco.com/c/yxx6qk/topics">Business Source Premier</a></dt><dd>Business journals, company and industry reports, case studies, and SWOT analyses.</dd>
-<dt><a href="https://research.ebsco.com/c/mvjwga/topics">Small Business Source</a></dt><dd>Small-business reference books, case studies, videos, and guidance on business plans, marketing, and hiring.</dd>
-<dt><a href="https://research.ebsco.com/c/t3bsam?db=e703sww">Small Business Reference eBook Collection</a></dt><dd>Companion reference books for deeper reading.</dd>
-<dt><a href="https://research.ebsco.com/c/t3bsam?db=bwh">Regional Business News</a></dt><dd>Regional business newspapers, trade publications, and newswires.</dd>
-<dt><a href="https://research.ebsco.com/c/t3bsam?db=lir">Legal Information Reference Source</a></dt><dd>Legal reference books written for everyday readers. Useful for Business Law.</dd>
-<dt><a href="https://research.ebsco.com/c/qmcgnf/topics">Explora High Schools</a></dt><dd>Topic overviews built for high school researchers. A good first stop when a practice question uses a term you don't know.</dd>
-<dt><a href="https://online.infobaselearning.com/Direct.aspx?pid=WE34&amp;aid=17282">Ferguson's Career Guidance Center</a></dt><dd>Profiles of careers and industries.</dd>
-</dl>
-<p>Off campus? <a href="https://docs.google.com/document/d/1oGCj_JLUUAQV9jOgOQpNmrZlYmntAysr68tuXCWGCy4/view">Login information</a> is linked on the <a href="https://mistertlibrary.github.io/librarylyceum/databases.html">Find a Database page</a>. You'll need your West Essex Google account.</p>
+</div>
+<div class="db-grid" aria-label="Business databases">
+<article class="db-card"><div class="db-card-header"><a class="db-card-name" href="https://research.ebsco.com/c/yxx6qk/topics" target="_blank" rel="noopener noreferrer">Business Source Premier<span class="visually-hidden"> (opens in a new tab)</span></a><svg class="card-arrow" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><line x1="3" y1="15" x2="15" y2="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polyline points="7,3 15,3 15,11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div><div class="db-card-desc"><p>Business journals, company and industry reports, case studies, and SWOT analyses. MarketLine reports cover more than 15,000 global companies, complete with financial overviews and competitor lists.</p></div></article>
+<article class="db-card"><div class="db-card-header"><a class="db-card-name" href="https://research.ebsco.com/c/mvjwga/topics" target="_blank" rel="noopener noreferrer">Small Business Source<span class="visually-hidden"> (opens in a new tab)</span></a><svg class="card-arrow" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><line x1="3" y1="15" x2="15" y2="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polyline points="7,3 15,3 15,11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div><div class="db-card-desc"><p>Small-business reference books, case studies, videos, and guidance on business plans, marketing, and hiring. A must for the aspiring entrepreneur.</p></div></article>
+<article class="db-card"><div class="db-card-header"><a class="db-card-name" href="https://research.ebsco.com/c/t3bsam?db=e703sww" target="_blank" rel="noopener noreferrer">Small Business Reference eBook Collection<span class="visually-hidden"> (opens in a new tab)</span></a><svg class="card-arrow" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><line x1="3" y1="15" x2="15" y2="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polyline points="7,3 15,3 15,11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div><div class="db-card-desc"><p>Companion reference books to Small Business Source. Ideal for the far-thinking planner who wants to go beyond bullet points and summaries.</p></div></article>
+<article class="db-card"><div class="db-card-header"><a class="db-card-name" href="https://research.ebsco.com/c/t3bsam?db=bwh" target="_blank" rel="noopener noreferrer">Regional Business News<span class="visually-hidden"> (opens in a new tab)</span></a><svg class="card-arrow" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><line x1="3" y1="15" x2="15" y2="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polyline points="7,3 15,3 15,11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div><div class="db-card-desc"><p>Regional business newspapers, trade publications, and newswires. FBLA members: if you aren't consulting these resources as you prepare for your events, you're selling yourself short!</p></div></article>
+<article class="db-card"><div class="db-card-header"><a class="db-card-name" href="https://research.ebsco.com/c/t3bsam?db=lir" target="_blank" rel="noopener noreferrer">Legal Information Reference Source<span class="visually-hidden"> (opens in a new tab)</span></a><svg class="card-arrow" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><line x1="3" y1="15" x2="15" y2="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polyline points="7,3 15,3 15,11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div><div class="db-card-desc"><p>Legal reference books written for everyday readers. Useful for Business Law, especially if you're trying to bridge the gap between the letter of the law and its actual application.</p></div></article>
+<article class="db-card"><div class="db-card-header"><a class="db-card-name" href="https://research.ebsco.com/c/qmcgnf/topics" target="_blank" rel="noopener noreferrer">Explora High Schools<span class="visually-hidden"> (opens in a new tab)</span></a><svg class="card-arrow" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><line x1="3" y1="15" x2="15" y2="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polyline points="7,3 15,3 15,11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div><div class="db-card-desc"><p>Topic overviews built for high school researchers. A good first stop when a practice question uses a term you don't know.</p></div></article>
+<article class="db-card"><div class="db-card-header"><a class="db-card-name" href="https://online.infobaselearning.com/Direct.aspx?pid=WE34&amp;aid=17282" target="_blank" rel="noopener noreferrer">Ferguson's Career Guidance Center<span class="visually-hidden"> (opens in a new tab)</span></a><svg class="card-arrow" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><line x1="3" y1="15" x2="15" y2="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><polyline points="7,3 15,3 15,11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div><div class="db-card-desc"><p>Profiles of careers and industries that explain job duties, skills, education paths, earnings, and employment trends.</p></div></article>
+</div>
+<div class="wrap">
+<p>Off campus? Open the <a href="https://docs.google.com/document/d/1oGCj_JLUUAQV9jOgOQpNmrZlYmntAysr68tuXCWGCy4/view">login information</a> with your West Essex Google account.</p>
 </div>
 </section>
 
